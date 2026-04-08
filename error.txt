@@ -1,0 +1,80 @@
+﻿Γùç injected env (0) from .env // tip: Γîÿ enable debugging { debug: true }
+node : C:\Users\Dell\Downl
+oads\GENAI PROj\multi-agen
+t-system\node_modules\@lan
+gchain\google-genai\dist\c
+hat_models.cjs:440
+At line:1 char:1
++ node dist/index.js > 
+error.log 2>&1; 
+Get-Content error.log | 
+Out-File ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~
+    + CategoryInfo        
+      : NotSpecified: (C  
+  :\Users\Dell\D..._mod   
+ els.cjs:440:String) [    
+], RemoteException
+    + FullyQualifiedError 
+   Id : NativeCommandErr  
+  or
+ 
+		if (!this.apiKey) throw 
+new Error("Please set an 
+API key for Google 
+GenerativeAI in the 
+environment variable 
+GOOGLE_API_KEY or in the 
+`apiKey` field of the 
+ChatGoogleGenerativeAI 
+constructor");
+		                  ^
+
+Error: Please set an API 
+key for Google 
+GenerativeAI in the 
+environment variable 
+GOOGLE_API_KEY or in the 
+`apiKey` field of the 
+ChatGoogleGenerativeAI 
+constructor
+    at new 
+ChatGoogleGenerativeAI (C:
+\Users\Dell\Downloads\GENA
+I PROj\multi-agent-system\
+node_modules\@langchain\go
+ogle-genai\dist\chat_model
+s.cjs:440:27)
+    at Object.<anonymous> 
+(C:\Users\Dell\Downloads\G
+ENAI PROj\multi-agent-syst
+em\dist\agents\workflow.js
+:60:13)
+    at Module._compile (no
+de:internal/modules/cjs/lo
+ader:1811:14)
+    at Object..js (node:in
+ternal/modules/cjs/loader:
+1942:10)
+    at Module.load (node:i
+nternal/modules/cjs/loader
+:1532:32)
+    at Module._load (node:
+internal/modules/cjs/loade
+r:1334:12)
+    at wrapModuleLoad (nod
+e:internal/modules/cjs/loa
+der:255:19)
+    at Module.require (nod
+e:internal/modules/cjs/loa
+der:1555:12)
+    at require (node:inter
+nal/modules/helpers:152:16
+)
+    at Object.<anonymous> 
+(C:\Users\Dell\Downloads\G
+ENAI PROj\multi-agent-syst
+em\dist\index.js:10:20)
+
+Node.js v25.6.1

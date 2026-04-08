@@ -1,0 +1,4 @@
+﻿Γùç injected env (0) from .env // tip: Γîÿ custom filepath { path: '/custom/path/.env' }
+Server is running on port 3000
+Connection to SQLite has been established successfully.
+Database synced
